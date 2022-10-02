@@ -1,0 +1,11 @@
+def check_guess(guess, target):
+    if guess > target:
+        return ("too high")
+    if guess < target: 
+        return ("too low")
+    else:
+        return ("correct")
+    
+    check_guess(7,7)
+    check_guess(9,7)
+    check_guess(5,7)
